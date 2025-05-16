@@ -1,0 +1,17 @@
+__pycache__
+venv*
+.env
+.DS_Store
+*.swp
+*.swo
+src/RESULTS/*.xlsx
+src/CHATGPT
+DATASET_CACHE/
+DATASET_REPOSITORY/root/
+src/RESULTS
+src/CSV/*.csv
+models/
+*.xlsx
+*.chatgpt.csv
+src/syntheticdataset/newdata/spam.csv
+src/GIT-CSV/Plasma--MCAR--10--X_test_missing.csv
