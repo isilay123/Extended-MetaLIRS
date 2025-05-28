@@ -1,6 +1,6 @@
 # This repository created for this paper:
 
-This repository created for this paper: Extended MetaLIRS: Meta-learning for Imputation and Regression Selection Model with Explainability for Different Missing Data Mechanisms
+This repository created for this paper: Extended MetaLIRS: Meta-learning for Imputation and Regression Selection Model with Explainability for Different Missing Data Mechanisms.
 Authors:Işıl Baysal Erez, Jan Flokstra, Mannes Poel, Maurice van Keulen
 ## For development
 
