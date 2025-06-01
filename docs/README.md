@@ -1,5 +1,5 @@
 # This repository created for this paper:
-Baysal Erez, I., Flokstra, J., Poel, M. et al. Extended MetaLIRS: Meta-learning for Imputation and Regression Selection Model with Explainability for Different Missing Data Mechanisms. Int J Data Sci Anal (2025). https://doi.org/10.1007/s41060-025-00808-w
+Baysal Erez, I., Flokstra, J., Poel, M. , van Keulen M. Extended MetaLIRS: Meta-learning for Imputation and Regression Selection Model with Explainability for Different Missing Data Mechanisms. Int J Data Sci Anal (2025). https://doi.org/10.1007/s41060-025-00808-w
 
 ## For development
 
