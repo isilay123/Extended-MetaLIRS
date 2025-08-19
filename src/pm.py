@@ -31,7 +31,7 @@ NORMALIZE_CATAGORICAL = True
 
 USE_HYPERPAR = False
 
-IMPUTE_TEST_FRAME = True
+IMPUTE_TEST_FRAME = False
 
 TEST_SIZE = 0.25
 RANDOM_SEED = 1001
@@ -454,3 +454,4 @@ if __name__ == "__main__":
     #
     else:
         raise Exception(f'pm: unknown mode \"{MODE}\"')
+
