@@ -47,8 +47,7 @@ def percentile75(data):
     percentile_75 = np.percentile(data, 75)
     return percentile_75
 
-#For data complexity measures, see https://github.com/aclorena/ComplexityRegression/blob/master/measures.r
-#For python: https://towardsdatascience.com/are-you-aware-how-difficult-your-regression-problem-is-b7dae830652b 
+#For data complexity measures, see https://github.com/aclorena/ComplexityRegression/blob/master/measures.r 
 #MF1 corresponds to the percentage of missing data; therefore, we did not include it in the code.
 #We will add MF20-MF25 meta features (data complexity-based meta-features). If you want to apply them in the meantime, please check out these sources. Please see this sources:https://github.com/aclorena/ComplexityRegression/blob/master/measures.r
 ###############################################################################################
@@ -244,4 +243,5 @@ def analyze_Xy_features(X, y, dsd, features, res, pfx="", verbose=False):
     op.TIMER.stop()
     total_time = op.TIMER.last_seconds()  
     res['TOTAL_TIME_' + pfx] = total_time
+
 
