@@ -9,7 +9,8 @@
 #  pages={2825--2830},
 #  year={2011}
 #}
-
+#For XGBoost: Tianqi Chen and Carlos Guestrin. XGBoost: A Scalable Tree Boosting System. In 22nd SIGKDD Conference on Knowledge Discovery and Data Mining, 2016, https://github.com/dmlc/xgboost.
+#For LightGBM, Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, Tie-Yan Liu. "LightGBM: A Highly Efficient Gradient Boosting Decision Tree". Advances in Neural Information Processing Systems 30 (NIPS 2017), pp. 3149-3157.https://github.com/microsoft/LightGBM
 import sys
 from sklearn.metrics import mean_squared_error 
 from sklearn.metrics import r2_score
@@ -305,3 +306,4 @@ def get_regressor(p_name):
         return REGRESSOR_TABLE[name].refresh()
     else:
         raise Exception(f'unknown regressor "{p_name}" ')
+
