@@ -31,7 +31,7 @@ class MLPImputer:
             stat_log = []
 
     def column_classifier(self, src_df, target_c, feature_c):
-        """ function computes an MLP classifier on target_c columns by the
+        """ function computes an MLP regressor on target_c columns by the
             feature columns. It dos so by selecting the 'best' candidate
             rows with the least number of NaN's. The remaining NaN's in
             the traning set a guessed by a simple imputer.
@@ -75,7 +75,7 @@ class MLPImputer:
         return MLPRegressor(random_state=1, max_iter=300).fit(X_train, y_train)
 
     def fit(self, df):
-        """ the classifier fit() function which computes an MLP classifier for
+        """ the classifier fit() function which computes an MLP regressor for
             every column and stores it in the column classifiers.
         """
         # store the column name of the entire frame
@@ -144,3 +144,4 @@ if __name__ == "__main__":
     mlpi.fit(df)
     imputed_df = mlpi.transform(df)
     print(f'IMPUTED DataFrame:\n{imputed_df}')
+
